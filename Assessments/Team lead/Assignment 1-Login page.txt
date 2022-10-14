@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <form action="action_page.php" method="post">
+       
+      
+        <div class="container">
+          <label for="uname"><b>Name          :</b></label>
+          <input type="text" placeholder="name" name="uname" required>
+        </div>
+         <br>
+         <br>
+        <div>
+            <label>   
+                Qualification : 
+                </label>   
+                <select>  
+                <option value="Course">Course</option>  
+                <option value="B.E-ECE">B.E-ECE</option>  
+                <option value="B.TECH-IT">B.TECH-IT</option>  
+                <option value="B.E-CSE">B.E-CSE</option>  
+                <option value="B.E-EEE">B.E-EEE</option>  
+                <option value="B.E-EIE">B.E-EIE</option>  
+                <option value="B.E-MECH">B.E-MECH</option>  
+                </select> 
+        </div>
+        <br>
+         <br>
+
+         <div>
+            <label for="Age">Age           :</label>
+            <input type="number" id="Age" name="Age" min="1" max="50">
+         </div>
+         <br>
+         <br>
+
+        <div>
+            
+                <label>Email         : </label>  
+                <input type="email" id="email" name="email"/> <br>   
+        </div>
+        <br>
+        <br>
+
+        <div>
+        <button type="submit">SUBMIT</button>
+        </div>
+        <br>
+        <br>
+      
+       
+      </form>
+
+
+</body>
+</html>
